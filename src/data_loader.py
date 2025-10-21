@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import re
 from typing import List, Dict, Any
-from battery_feature_mapper import BatteryFeatureMapper
+from src.battery_feature_mapper import BatteryFeatureMapper
 
 class BatteryDataLoader:
     """
