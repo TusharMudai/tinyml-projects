@@ -1,0 +1,31 @@
+# Battery Data Preprocessing Pipeline
+
+A standardized pipeline for preprocessing battery datasets to extract features for SoH, RUL, and SoC prediction.
+
+## Features
+
+- **Automatic Feature Extraction**: Maps varying column names to 6 standardized features:
+  - Capacity, Voltage, Current, Temperature, Discharge Time, Charge Time
+- **Missing Value Handling**: Multiple strategies (mean, median, drop, forward fill)
+- **Multiple Formats**: Supports CSV, Excel, Parquet, JSON
+- **Analysis Tools**: Statistics, correlations, and visualizations
+
+## Files
+
+- `battery_feature_mapper.py` - Maps dataset columns to standardized features
+- `data_loader.py` - Loads and processes battery datasets  
+- `Battery_Feature_Extraction.ipynb` - Main preprocessing notebook
+
+## Usage
+
+1. Place your battery dataset in the folder
+2. Open `Battery_Feature_Extraction.ipynb`
+3. Set file path and prediction target (SoH/RUL/SoC)
+4. Run all cells
+5. Use exported features for model training
+
+## Output
+
+- Cleaned features ready for ML models
+- Feature mapping documentation
+- Data quality reports and visualizations
