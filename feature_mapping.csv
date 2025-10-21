@@ -1,0 +1,7 @@
+Standard_Feature,Original_Column
+capacity,Batt_Capacity_mAh
+voltage,Cell_Voltage_V
+current,Current_A
+temperature,Temperature_C
+discharge_time,Discharge_Time_s
+charge_time,Charge_Time_min

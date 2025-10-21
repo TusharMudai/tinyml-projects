@@ -1,0 +1,2 @@
+prediction_target,original_file,extraction_date,features_extracted
+SoH,your_battery_data.csv,2025-10-21 16:22:53,"['capacity', 'voltage', 'current', 'temperature', 'discharge_time', 'charge_time']"
